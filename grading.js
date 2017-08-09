@@ -8,7 +8,7 @@ for (let i = 0; i < inputs.length; i++) {
   }
 }
 
-var saveAllFromIndex = (index) => {
+var saveFunc = (index) => {
   setTimeout(() => {
     saveBtns[index].click();
     index++;
