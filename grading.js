@@ -18,5 +18,5 @@ var saveFunc = (index) => {
   }, 1000)
 }
 
-saveAllFromIndex(0);
+saveFunc(0);
 
